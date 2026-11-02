@@ -1,0 +1,97 @@
+.jewellery-section {
+  width: 100%;
+  overflow: hidden;
+  padding: 8px 0 24px;
+  color: #332b25;
+}
+
+.jewellery-heading {
+  margin: 0 16px 18px;
+  font-size: 1.4rem;
+}
+
+.jewellery-marquee {
+  overflow: hidden;
+  padding: 4px 0 14px;
+}
+
+.jewellery-track {
+  display: flex;
+  width: max-content;
+  animation: jewellery-scroll 18s linear infinite;
+}
+
+.jewellery-marquee:hover .jewellery-track,
+.jewellery-marquee:focus-within .jewellery-track {
+  animation-play-state: paused;
+}
+
+.jewellery-review-group {
+  display: flex;
+  gap: 18px;
+  padding-right: 18px;
+}
+
+.jewellery-review-card {
+  width: 290px;
+  flex: 0 0 290px;
+  overflow: hidden;
+  border: 1px solid #eee4d5;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 5px 18px rgba(80, 57, 34, 0.1);
+}
+
+.jewellery-image {
+  display: grid;
+  height: 160px;
+  place-items: center;
+  background: linear-gradient(135deg, #fffaf0, #f8edf1);
+}
+
+.jewellery-illustration {
+  width: 100%;
+  height: 100%;
+}
+
+.jewellery-review-content {
+  padding: 16px 18px 18px;
+}
+
+.jewellery-review-content h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.jewellery-rating {
+  color: #d29a25;
+  letter-spacing: 2px;
+}
+
+.jewellery-review-content p {
+  min-height: 60px;
+  margin: 10px 0;
+  color: #5e5853;
+  line-height: 1.5;
+}
+
+.jewellery-reviewer {
+  color: #74695f;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+@keyframes jewellery-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .jewellery-track {
+    animation: none;
+  }
+}

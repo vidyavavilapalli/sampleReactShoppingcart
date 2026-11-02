@@ -1,0 +1,106 @@
+[
+  {
+    "name": "File",
+    "type": "File",
+    "filename": "ProjectPlan.docx",
+    "createdDate": "2026-10-28",
+    "modifiedDate": "2026-10-30",
+    "fileFormat": "DOCX"
+  },
+  {
+    "name": "New Project",
+    "type": "File",
+    "filename": "NewProject.zip",
+    "createdDate": "2026-10-29",
+    "modifiedDate": "2026-10-31",
+    "fileFormat": "ZIP"
+  },
+  {
+    "name": "Open Recent",
+    "type": "File",
+    "filename": "MeetingNotes.pdf",
+    "createdDate": "2026-10-25",
+    "modifiedDate": "2026-10-29",
+    "fileFormat": "PDF"
+  },
+  {
+    "name": "Export As...",
+    "type": "File",
+    "filename": "AnnualReport.pdf",
+    "createdDate": "2026-10-20",
+    "modifiedDate": "2026-10-31",
+    "fileFormat": "PDF"
+  },
+  {
+    "name": "PDF (.pdf)",
+    "type": "File",
+    "filename": "Summary.pdf",
+    "createdDate": "2026-10-21",
+    "modifiedDate": "2026-10-30",
+    "fileFormat": "PDF"
+  },
+  {
+    "name": "Image (.png)",
+    "type": "File",
+    "filename": "ProductImage.png",
+    "createdDate": "2026-10-22",
+    "modifiedDate": "2026-10-27",
+    "fileFormat": "PNG"
+  },
+  {
+    "name": "Advanced Formats",
+    "type": "File",
+    "filename": "Archive.json",
+    "createdDate": "2026-10-23",
+    "modifiedDate": "2026-10-28",
+    "fileFormat": "JSON"
+  },
+  {
+    "name": "SVG向量 graph",
+    "type": "File",
+    "filename": "Diagram.svg",
+    "createdDate": "2026-10-24",
+    "modifiedDate": "2026-10-29",
+    "fileFormat": "SVG"
+  },
+  {
+    "name": "Raw Data (.json)",
+    "type": "File",
+    "filename": "RawData.json",
+    "createdDate": "2026-10-26",
+    "modifiedDate": "2026-10-31",
+    "fileFormat": "JSON"
+  },
+  {
+    "name": "Edit",
+    "type": "Action",
+    "filename": "EditHistory.log",
+    "createdDate": "2026-10-27",
+    "modifiedDate": "2026-10-31",
+    "fileFormat": "LOG"
+  },
+  {
+    "name": "Undo",
+    "type": "Action",
+    "filename": "UndoHistory.log",
+    "createdDate": "2026-10-27",
+    "modifiedDate": "2026-10-31",
+    "fileFormat": "LOG"
+  },
+  {
+    "name": "Redo",
+    "type": "Action",
+    "filename": "RedoHistory.log",
+    "createdDate": "2026-10-27",
+    "modifiedDate": "2026-10-31",
+    "fileFormat": "LOG"
+  },
+  {
+    "name": "Settings",
+    "type": "Settings",
+    "filename": "app-settings.json",
+    "createdDate": "2026-10-18",
+    "modifiedDate": "2026-10-31",
+    "fileFormat": "JSON"
+  }
+]
